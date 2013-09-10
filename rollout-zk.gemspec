@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'rollout-zk'
-  s.version           = '0.0'
-  s.date              = '2010-01-01'
+  s.version           = '1.0.0'
+  s.date              = '2013-09-10'
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
@@ -51,7 +51,18 @@ Gem::Specification.new do |s|
   ## contents of your Git repository via the gemspec task. DO NOT REMOVE
   ## THE MANIFEST COMMENTS, they are used as delimiters by the task.
   # = MANIFEST =
-  s.files = %w[]
+  s.files = %w[
+    Gemfile
+    LICENSE
+    README.md
+    Rakefile
+    lib/rollout-zk.rb
+    lib/rollout/zookeeper/distributed_hashtable.rb
+    lib/rollout/zookeeper/storage.rb
+    rollout-zk.gemspec
+    test/storage_test.rb
+    test/test_helper.rb
+  ]
   # = MANIFEST =
 
   ## Test files will be grabbed from the file list. Make sure the path glob
