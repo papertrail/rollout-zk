@@ -42,7 +42,7 @@ Gem::Specification.new do |s|
   ## that are needed for an end user to actually USE your code.
   s.add_dependency('rollout', [">= 2.0"])
   s.add_dependency('zk')
-  s.add_dependency('yajl')
+  s.add_dependency('yajl-ruby')
 
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development
