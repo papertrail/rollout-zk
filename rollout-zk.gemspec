@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
   s.authors  = ["Eric Lindvall"]
   s.email    = 'eric@papertrailapp.com'
   s.homepage = 'https://github.com/papertrail/rollout-zk'
+  s.license  = "MIT"
 
   ## This gets added to the $LOAD_PATH so that 'lib/NAME.rb' can be required as
   ## require 'NAME.rb' or'/lib/NAME/file.rb' can be as require 'NAME/file.rb'
